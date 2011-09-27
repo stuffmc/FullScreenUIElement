@@ -14,7 +14,20 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [[self window] setDelegate:self];
+}
+
+- (void)windowWillEnterFullScreen:(NSNotification *)notification {
+    [self transformProcessType:kProcessTransformToForegroundApplication];
+}
+
+- (void)windowWillExitFullScreen:(NSNotification *)notification {
+    [self transformProcessType:kProcessTransformToUIElementApplication];
+}
+
+- (void)transformProcessType:(ProcessApplicationTransformState)transformState {
+    ProcessSerialNumber psn = { 0, kCurrentProcess };
+    TransformProcessType(&psn, transformState);
 }
 
 @end

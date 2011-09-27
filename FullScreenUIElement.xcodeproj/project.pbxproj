@@ -21,12 +21,12 @@
 		4C75C0341431C4BF00D35C74 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4C75C0351431C4BF00D35C74 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4C75C0361431C4BF00D35C74 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4C75C0391431C4BF00D35C74 /* FullScreenUIElement-Info.plist */ = {isa = PBXFileReference; path = "FullScreenUIElement-Info.plist"; sourceTree = "<group>"; };
+		4C75C0391431C4BF00D35C74 /* FullScreenUIElement-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FullScreenUIElement-Info.plist"; sourceTree = "<group>"; };
 		4C75C03B1431C4BF00D35C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C75C03D1431C4BF00D35C74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4C75C03F1431C4BF00D35C74 /* FullScreenUIElement-Prefix.pch */ = {isa = PBXFileReference; path = "FullScreenUIElement-Prefix.pch"; sourceTree = "<group>"; };
+		4C75C03F1431C4BF00D35C74 /* FullScreenUIElement-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FullScreenUIElement-Prefix.pch"; sourceTree = "<group>"; };
 		4C75C0411431C4BF00D35C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4C75C0431431C4BF00D35C74 /* FullScreenUIElementAppDelegate.h */ = {isa = PBXFileReference; path = FullScreenUIElementAppDelegate.h; sourceTree = "<group>"; };
+		4C75C0431431C4BF00D35C74 /* FullScreenUIElementAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullScreenUIElementAppDelegate.h; sourceTree = "<group>"; };
 		4C75C0441431C4BF00D35C74 /* FullScreenUIElementAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullScreenUIElementAppDelegate.m; sourceTree = "<group>"; };
 		4C75C0471431C4BF00D35C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
